@@ -1,0 +1,21 @@
+[project]
+name = "1d-shallow-water-analysis"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "yuki",email = "you.ki.0815@icloud.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy (>=2.3.0,<3.0.0)",
+    "matplotlib (>=3.10.3,<4.0.0)",
+    "pyyaml (>=6.0.2,<7.0.0)",
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

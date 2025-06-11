@@ -1,0 +1,5 @@
+swe/__pycache__/
+examples/__pycache__/
+examples/result/
+examples/animation.mp4
+.DS_Store
